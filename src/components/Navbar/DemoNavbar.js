@@ -14,7 +14,7 @@ class DemoNavbar extends React.Component {
     <div className="row">
       <div className="col">
       <a className="navbar-brand" href="#">
-  <img src={require("../../assets/img/brand/argon-react-white.png")} className="d-inline-block align-text-top" width="130" height="70"/>
+  <img src={require("../../assets/img/brand/argon-react-white.png")} className="d-inline-block align-text-top" width="130" height="70" alt="logo"/>
 </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,8 @@ class DemoNavbar extends React.Component {
             <li className="nav-item dropdown ">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Components</a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">
+                <li>
+                  <a className="dropdown-item" href="#">
                   <div>
                     <h6>Getting started</h6>
                     <p className="text-muted">Learn how to use Argon compiling Scss, change</p>
